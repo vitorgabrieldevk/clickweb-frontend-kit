@@ -1,0 +1,45 @@
+/* -----------------------------------------
+| Definição de Variáveis
+| -----------------------------------------*/
+
+/* Cores */
+$primary-color: #603ed7;
+$secondary-color: #603ed7;
+
+/* Fontes */
+$font-family-main: 'Sora', sans-serif;
+
+/* Largura máxima */
+$width-max: 1272px;
+
+/* -----------------------------------------
+| Estilos Globais
+| -----------------------------------------*/
+
+body {
+  font-family: $font-family-main;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+  font-family: $font-family-main;
+}
+
+/* -----------------------------------------
+| Containers
+| -----------------------------------------*/
+
+.cw-container {
+  max-width: $width-max;
+  margin: 0 auto;
+}

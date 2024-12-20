@@ -1,11 +1,13 @@
 /* -----------------------------------------
 | Importações - Dependências
 | -----------------------------------------*/
-@use './abstracts/Vars.scss';
 @use './abstracts/Mixins.scss';
+@use './abstracts/Fonts.scss';
+@use './abstracts/Theme.scss';
 
 /* -----------------------------------------
 | Importações - Páginas
 | -----------------------------------------*/
 @use './pages/IndexPage.scss';
 @use './pages/AboutPage.scss';
+

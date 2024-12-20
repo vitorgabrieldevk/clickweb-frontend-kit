@@ -1,0 +1,65 @@
+/* sora-300 - ExtraLight */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 300;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-ExtraLight.ttf") format("truetype");
+}
+
+/* sora-400 - Regular */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-Regular.ttf") format("truetype");
+}
+
+/* sora-500 - Medium */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-Medium.ttf") format("truetype");
+}
+
+/* sora-600 - SemiBold */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 600;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-SemiBold.ttf") format("truetype");
+}
+
+/* sora-700 - Bold */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-Bold.ttf") format("truetype");
+}
+
+/* sora-800 - ExtraBold */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 800;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-ExtraBold.ttf") format("truetype");
+}
+
+/* sora-900 - Thin */
+@font-face {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 100;
+    src: local(""),
+        url("../../fonts/Sora/static/Sora-Thin.ttf") format("truetype");
+}
+
+/* Import de variantes, caso necessário */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600;700;800&display=swap');
