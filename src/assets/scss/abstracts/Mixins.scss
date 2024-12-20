@@ -1,0 +1,157 @@
+/* ============================================================================ 
+Mobile
+============================================================================ */
+@mixin mobile {
+    @media screen and (max-width: 640px) {
+        @content;
+    }
+}
+
+@mixin mobile_large {
+    @media screen and (min-width: 640px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile_up {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+/* ============================================================================ 
+Tablet
+============================================================================ */
+@mixin tablet {
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin tablet_small {
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+        @content;
+    }
+}
+
+@mixin tablet_small_down {
+    @media screen and (max-width: 960px) {
+        @content;
+    }
+}
+
+@mixin tablet_small_up {
+    @media screen and (min-width: 960px) {
+        @content;
+    }
+}
+
+@mixin tablet_large {
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin tablet_large_down {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin tablet_horizontal {
+    @media screen and (min-width: 850px) and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin tablet_vertical {
+    @media screen and (min-width: 600px) and (max-width: 850px) {
+        @content;
+    }
+}
+
+/* ============================================================================ 
+Desktop
+============================================================================ */
+@mixin desktop {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin desktop_small {
+    @media screen and (min-width: 1200px) and (max-width: 1600px) {
+        @content;
+    }
+}
+
+@mixin desktop_large {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
+
+@mixin desktop_down {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+/* ============================================================================ 
+Print
+============================================================================ */
+@mixin print {
+    @media print {
+        @content;
+    }
+}
+
+/* ============================================================================ 
+Outros Mixins Úteis
+============================================================================ */
+
+/* Mixins para grid */
+@mixin grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mixins para esconder elementos em telas pequenas */
+@mixin hide-on-mobile {
+    @include mobile {
+        display: none;
+    }
+}
+
+@mixin hide-on-tablet {
+    @include tablet {
+        display: none;
+    }
+}
+
+@mixin hide-on-desktop {
+    @include desktop {
+        display: none;
+    }
+}
+
+/* Mixins para padding e margin */
+@mixin padding-all($value) {
+    padding: $value;
+}
+
+@mixin margin-all($value) {
+    margin: $value;
+}
+
+/* Mixins para efeitos de transição */
+@mixin transition($property, $duration, $timing-function: ease) {
+    transition: $property $duration $timing-function;
+}

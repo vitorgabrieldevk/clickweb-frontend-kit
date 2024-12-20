@@ -1,43 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+    ░█████╗░██╗░░░░░██╗░█████╗░██╗░░██╗░██╗░░░░░░░██╗███████╗██████╗░
+    ██╔══██╗██║░░░░░██║██╔══██╗██║░██╔╝░██║░░██╗░░██║██╔════╝██╔══██╗
+    ██║░░╚═╝██║░░░░░██║██║░░╚═╝█████═╝░░╚██╗████╗██╔╝█████╗░░██████╦╝
+    ██║░░██╗██║░░░░░██║██║░░██╗██╔═██╗░░░████╔═████║░██╔══╝░░██╔══██╗
+    ╚█████╔╝███████╗██║╚█████╔╝██║░╚██╗░░╚██╔╝░╚██╔╝░███████╗██████╦╝
+    ░╚════╝░╚══════╝╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░
+    Autor: 𝘊𝘭𝘪𝘤𝘬𝘸𝘦𝘣
+    Ano: 2025
+    Site: https://clickweb.com.br/
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="description" content="Desenvolvemos soluções para impulsionar o seu negócio. Conheça nossos cases de sucesso!" />
+    <meta name="application-name" content="" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <meta property="og:title" content="Clickweb" />
+    <meta property="og:description" content="Desenvolvemos soluções para impulsionar o seu negócio. Conheça nossos cases de sucesso!" />
+    <meta property="og:image" content="%PUBLIC_URL%/assets/images/opengraph.jpg" />
+    <meta property="og:url" content="https://clickweb.com.br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Clickweb" />
+
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/assets/favicons/32x32.png" />
     <title>React App</title>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Clickweb",
+        "image": "https://www.clickweb.com.br/common/default/images/logos/logo.png",
+        "telephone": "43 3337-3800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida Madre Leônia Milito, 1377",
+          "addressLocality": "Londrina",
+          "addressRegion": "PR"
+        }
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

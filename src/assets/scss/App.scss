@@ -1,11 +1,11 @@
 /* -----------------------------------------
-| Importação das Rotas
+| Importações - Dependências
 | -----------------------------------------*/
-import RoutesComponent from './routes/routes';
+@use './abstracts/Vars.scss';
+@use './abstracts/Mixins.scss';
 
 /* -----------------------------------------
-| Componente Principal (App)
+| Importações - Páginas
 | -----------------------------------------*/
-const App = () => <RoutesComponent />;
-
-export default App;
+@use './pages/IndexPage.scss';
+@use './pages/AboutPage.scss';
