@@ -19,7 +19,7 @@ import './assets/scss/App.scss';
 /* -----------------------------------------
 | Renderização da aplicação
 | -----------------------------------------*/
-const root = ReactDOM.createRoot(document.getElementById('application-clickweb'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 window.$ = $;
 
 root.render(
